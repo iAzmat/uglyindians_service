@@ -7,4 +7,5 @@ class SpotFix
   field :initiator, type: String
   field :event_date, type: Date
   field :location, type: String
+  field :image, type: String
 end
