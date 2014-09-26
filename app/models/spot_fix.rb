@@ -6,4 +6,5 @@ class SpotFix
   field :longitude, type: String
   field :initiator, type: String
   field :event_date, type: Date
+  field :location, type: String
 end
