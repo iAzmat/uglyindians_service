@@ -74,8 +74,8 @@ production:
       database: app30052202
       hosts:
         - kahana.mongohq.com:10036
-      username: saravananselvamani@gmail.com
-      password: saravanan
+      username: heroku
+      password: lJM1j9PAb_abh_xZcPdTv4hmqXkTd3I7upb_OgO5fpPvGsgPaIPUgVX_wDDbc_CZ1O7JDw5jVXl4sLPx3j-sOw
       options:
         read: primary
         # In the test environment we lower the retries and retry interval to
