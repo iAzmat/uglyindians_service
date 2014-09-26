@@ -14,8 +14,17 @@ class SpotFixController < ApplicationController
     render json: SpotFix.find(params[:id]).to_json
   end
 
+  def spot_fix_signup
+    SpotFix.find(params[:spot_fix_id]).users.create(permited_user_params)
+    head :ok
+  end
+
   private
   def permited_params
     params.permit(*SpotFix.attribute_names)
+  end
+
+  def permited_user_params
+    params.permit(:email)
   end
 end
